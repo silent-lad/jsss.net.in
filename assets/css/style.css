@@ -570,6 +570,46 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Aim
+--------------------------------------------------------------*/
+.aim .content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.aim .content h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+.aim .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aim .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.aim .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: var(--primary);
+}
+
+
+.aim .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
